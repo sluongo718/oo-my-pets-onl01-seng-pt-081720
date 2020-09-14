@@ -15,5 +15,5 @@ class Dog
   def self.all
     @@all
   end
-  
+  binding.pry
 end
