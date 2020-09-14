@@ -1,3 +1,4 @@
+binding.pry
 class Dog
   # code goes here
   attr_accessor  :owner, :mood
