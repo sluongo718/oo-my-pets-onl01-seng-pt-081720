@@ -39,7 +39,7 @@ class Owner
      Dog.all.select {|the_dog| the_dog.owner == self}
   end
   
-  def buy_cat
+  def buy_cat(buying_cat)
     binding.pry
   end
   
