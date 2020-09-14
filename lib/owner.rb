@@ -41,7 +41,8 @@ class Owner
   
   def buy_cat(buying_cat)
   #can buy a cat that is an instance of the Cat class
-     Cat.
+      cat = Cat.new(buying_cat)
+    buy_cat
       #knows about its cats
   end
   
