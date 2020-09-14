@@ -65,6 +65,10 @@ class Owner
     self.cats.select {|kitty| kitty.owner = nil}
   end
   
+  def list_pets
+    
+  end
+  
   
   
 end
