@@ -53,6 +53,10 @@ class Owner
     self.dogs.select {|pupper| pupper.mood = "happy"}
   end
   
+  def feed_cat 
+    self.cats.select {|kitty| kitty.mood = "happy"}
+  end
+  
   
   
 end
