@@ -30,7 +30,8 @@ class Owner
     @@count = 0
   end
   
-  def cats 
+  def cats
+    #returns a collection of all the cats that belong to the owner
     Cat.all
   end
   
